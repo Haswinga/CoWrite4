@@ -8,7 +8,7 @@ from langchain.tools import DuckDuckGoSearchRun
 llm = ChatGoogleGenerativeAI(model="gemini-pro",
                              verbose=True,
                              tempreture=0.5,
-                             google_api_key="AIzaSyAqee4dqJ7SzSd9jsAxtDGAmDm0RHHF0UM")
+                             google_api_key="")
 
 
 #create search
